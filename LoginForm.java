@@ -15,15 +15,13 @@ public class LoginForm extends javax.swing.JFrame {
      */
     public LoginForm() {
         initComponents();
-        setLocationRelativeTo(null); // Center the window
+        setLocationRelativeTo(null);
     }
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    @SuppressWarnings("unchecked")                         
 
     private void initComponents() {
     java.awt.GridBagConstraints gridBagConstraints;
-
-    // New Panel for the form
+        
     javax.swing.JPanel formPanel = new javax.swing.JPanel(new java.awt.GridBagLayout());
 
     jLabel1 = new javax.swing.JLabel();
@@ -35,7 +33,7 @@ public class LoginForm extends javax.swing.JFrame {
 
     setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
     setTitle("Login");
-    setPreferredSize(new java.awt.Dimension(800, 400)); // Resize if needed
+    setPreferredSize(new java.awt.Dimension(800, 400));
     setResizable(false);
     getContentPane().setLayout(new java.awt.GridBagLayout());
 
